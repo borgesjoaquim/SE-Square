@@ -243,7 +243,6 @@
 	float: left;
 }
 
-
 .rtl .pagination {
 	text-align: left;
 	float: left;
@@ -274,7 +273,6 @@
 	margin-left: 5px;
 	margin-right: 0;
 }
-
 
 /* Action Bar styles
 ---------------------------------------- */
@@ -1081,11 +1079,18 @@ li.breadcrumbs span:first-child > a {
 
 	.captcha-panel dd.captcha {
 		margin-right: 0;
-}
+	}
 	
 	.rtl p.responsive-center {
 		float: none;
 		text-align: center;
 		margin-bottom: 5px;
+	}
+}
+
+@media (min-width: 701px) {
+	.rtl .postbody {
+		margin-right: 0;
+		margin-left: 16px;
 	}
 }
