@@ -361,12 +361,23 @@ dd.option {
 	line-height: 1.4em;
 }
 
+.agreement {
+	font-size: 12px;
+	line-height: 17px;
+	margin-bottom: 10px;
+}
+
+.agreement-text {
+	line-height: 17px;
+	margin-bottom: 10px;
+}
+
 dl.faq {
 	font-family: "Lucida Grande", Verdana, Helvetica, Arial, sans-serif;
 	font-size: 1.1em;
 	margin-top: 1em;
 	margin-bottom: 2em;
-	line-height: 1.4em;
+	line-height: 1.4em;	
 }
 
 dl.faq dt {
