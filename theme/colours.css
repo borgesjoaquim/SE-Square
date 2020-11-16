@@ -107,18 +107,20 @@ a:hover { color: #D31141; }
 
 .navbar {
 	background-color: #e5eef5;
-	border: 1px solid #bcd4e3; 
+	border: 1px solid #bcd4e3;
 }
 
 .panel {
 	background-color: #ECF1F3;
 	color: #28313F;
-	border: 1px solid #bcd4e3; 
+	border: 1px solid #bcd4e3;
 }
 
 .post:target .content {
 	color: #000000;
 }
+
+.post h3 a.first-unread,
 
 .post:target h3 a {
 	color: #000000;
@@ -155,7 +157,7 @@ table.zebra-list tr:nth-child(even) td, ul.zebra-list li:nth-child(even) {
 }
 
 .site_logo {
-	background-image: url("./images/site_logo.gif");
+	background-image: url("./images/site_logo.svg");
 }
 
 /* Horizontal lists
